@@ -61,3 +61,28 @@ header {
   justify-content: center;
   align-items: center;
 }
+.hero-content {
+  max-width: 700px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background: red;
+}
+.hero-content h1 {
+  color: #012970;
+  font-weight: bold;
+  line-height: 1;
+}
+.hero-content h3 {
+  color: #16151a;
+  font-weight: 600;
+  line-height: 2;
+}
+.hero-content button {
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 8px;
+}
