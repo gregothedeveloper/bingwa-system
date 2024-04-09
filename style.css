@@ -4,3 +4,41 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+body {
+  background: #16151a;
+  color: #fff;
+}
+header {
+  width: 100%;
+  background: #799c9c;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  text-transform: uppercase;
+}
+.logo {
+  margin: 30px 10%;
+  width: 500px;
+  cursor: pointer;
+}
+.logo h2 {
+  font-size: 30px;
+}
+.logo h2 a {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  margin: 35px 30px;
+}
+.navbar ul li {
+  display: inline-flex;
+  margin: 0 30px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
