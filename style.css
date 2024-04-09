@@ -58,31 +58,103 @@ header {
   width: 100%;
   background: url(img/hero-bg.png);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  align-content: center;
 }
 .hero-content {
-  max-width: 700px;
+  height: 400px;
+  display: block;
+  padding: 0 35px;
+  width: 720px;
+  align-content: center;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
-  background: red;
+  margin: 0 auto;
 }
 .hero-content h1 {
   color: #012970;
   font-weight: bold;
   line-height: 1;
+  margin-bottom: 20px;
 }
 .hero-content h3 {
   color: #16151a;
   font-weight: 600;
   line-height: 2;
 }
-.hero-content button {
-  width: 100px;
-  border: none;
-  border-radius: 30px;
+.hero-container .anchor {
+  width: 30%;
+  margin: 30px auto;
+  line-height: 0;
+  padding: 25px 40px;
+  border-radius: 4px;
+  transition: 0.5s ease-in;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+.anchor a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hero-img {
+  margin: 20px auto;
+  padding-right: 15px;
+  transition: 0.2s;
+}
+.about-container {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  align-content: center;
+}
+.content {
+  height: 400px;
+  display: block;
+  padding: 0 35px;
+  width: 720px;
+  align-content: center;
   justify-content: center;
   align-items: center;
-  padding: 18px 8px;
+  margin: 0 auto;
+}
+.content h3 {
+  color: #0c22ed;
+}
+.content h2 {
+  color: #16151a;
+}
+.content p {
+  color: black;
+}
+.content .anchor {
+  width: 30%;
+  margin: 30px auto;
+  line-height: 0;
+  padding: 25px 40px;
+  border-radius: 4px;
+  transition: 0.5s ease-in;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+.anchor a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.about-img {
+  margin: 20px auto;
+  padding-right: 15px;
+  transition: 0.2s;
 }
