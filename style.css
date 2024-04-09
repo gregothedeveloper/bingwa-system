@@ -17,7 +17,7 @@ header {
   text-transform: uppercase;
 }
 .logo {
-  margin: 30px 10%;
+  margin: 20px 10%;
   width: 500px;
   cursor: pointer;
 }
@@ -31,16 +31,26 @@ header {
   color: #fff;
 }
 .navbar {
-  display: flex;
-  margin: 35px 30px;
+  display: block;
+  margin: 20px 10px;
 }
 .navbar ul li {
   display: inline-flex;
-  margin: 0 30px;
-  font-size: 20px;
+  margin: 0 10px;
+  font-size: 18px;
   font-weight: bold;
 }
 .navbar ul li a {
   text-decoration: none;
   color: white;
+  border: 0;
+  border-radius: 30px;
+  margin: 0 2px;
+  padding: 8px 18px;
+}
+.navbar ul li a:hover {
+  background-color: #0c22ed;
+}
+.navbar ul li a.active {
+  background-color: #0c22ed;
 }
