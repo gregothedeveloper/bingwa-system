@@ -12,6 +12,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 nav {
+  padding: 8px 18px;
   background: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -24,6 +25,13 @@ nav ul {
 }
 nav li {
   height: 50px;
+  display: flex;
+  margin: 0 8px;
+
+  background: transparent;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 nav a {
   height: 100%;
@@ -33,12 +41,21 @@ nav a {
   padding: 0 30px;
   width: 100%;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 nav a:hover {
-  background: #f0f0f0;
+  background: #3c63d6;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 nav li:first-child {
   margin-right: auto;
+  background: transparent;
+}
+nav li:first-child :hover {
+  background: white;
 }
 .sidebar {
   position: fixed;
@@ -64,12 +81,17 @@ nav li:first-child {
 .menu-button {
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 857px) {
   .hideOnMobile {
     display: none;
   }
   .menu-button {
     display: block;
+    background: white;
+  }
+  .menu-button:hover {
+    display: block;
+    background: white;
   }
 }
 @media (max-width: 600px) {
