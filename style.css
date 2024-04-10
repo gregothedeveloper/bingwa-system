@@ -84,47 +84,30 @@ nav li:first-child :hover {
 .menu-button {
   display: none;
 }
-@media (max-width: 974px) {
+@media (max-width: 823px) {
   .hideOnMobile {
     display: none;
   }
-  .menu-button {
-    display: block;
-    background: white;
-  }
-}
-@media (max-width: 934px) {
-  .hideOnMobile {
-    display: none;
+  nav {
+    width: 100%;
   }
   .menu-button {
     display: block;
-    background: white;
-  }
-  .menu-button:hover {
-    display: block;
-    background: white;
   }
 }
-@media (max-width: 857px) {
-  .hideOnMobile {
-    display: none;
-  }
-  .menu-button {
-    display: block;
-    background: white;
-  }
-  .menu-button:hover {
-    display: block;
-    background: white;
-  }
-}
-@media (max-width: 600px) {
-  .sidebar {
-    width: 50%;
-  }
-}
+
 @media (max-width: 400px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+    background: white;
+  }
+  .menu-button:hover {
+    display: block;
+    background: white;
+  }
   .sidebar {
     width: 100%;
   }
