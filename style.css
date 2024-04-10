@@ -93,7 +93,18 @@ nav li:first-child :hover {
     width: 100%;
   }
   .menu-button {
-    display: block;
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .hideOnMobile {
+    display: none;
+  }
+  nav {
+    width: 100%;
+  }
+  .menu-button {
+    display: flex;
   }
 }
 
@@ -102,12 +113,10 @@ nav li:first-child :hover {
     display: none;
   }
   .menu-button {
-    display: block;
-    background: white;
+    display: flex;
   }
-  .menu-button:hover {
-    display: block;
-    background: white;
+  nav {
+    width: 100%;
   }
   .sidebar {
     width: 100%;
