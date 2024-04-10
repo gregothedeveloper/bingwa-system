@@ -44,7 +44,8 @@ nav a {
   justify-content: center;
   text-align: center;
 }
-nav a:hover {
+nav a:hover,
+.active {
   background: #3c63d6;
   border: none;
   border-radius: 10px;
@@ -53,6 +54,8 @@ nav a:hover {
 nav li:first-child {
   margin-right: auto;
   background: transparent;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 nav li:first-child :hover {
   background: white;
@@ -64,7 +67,7 @@ nav li:first-child :hover {
   backdrop-filter: blur(10px);
   align-items: flex-start;
   justify-content: flex-start;
-  width: 250px;
+  width: 400px;
   height: 100vh;
   top: 0;
   z-index: 999;
@@ -73,13 +76,26 @@ nav li:first-child :hover {
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
 }
 .sidebar li {
-  width: 100%;
+  width: 90%;
 }
 .sidebar a {
-  width: 100%;
+  width: 90%;
 }
 .menu-button {
   display: none;
+}
+@media (max-width: 934px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+    background: white;
+  }
+  .menu-button:hover {
+    display: block;
+    background: white;
+  }
 }
 @media (max-width: 857px) {
   .hideOnMobile {
